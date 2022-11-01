@@ -13,6 +13,16 @@ header {
     font-weight: 600;
 }
 
+.slider-picture {
+    margin-top: 30px;
+}
+
+.card {
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+
 @media screen and (max-width: 992px) {
     header img {
         width: 85vw;
@@ -20,5 +30,9 @@ header {
 
     .navbar .nav-link {
         margin: 0 auto;
+    }
+
+    .card {
+        margin-top: 30px;
     }
 }
