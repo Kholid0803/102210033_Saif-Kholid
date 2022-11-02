@@ -8,13 +8,28 @@ header {
     margin-bottom: 30px;
 }
 
+header img {
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.navbar {
+    background-color: #036aa1;
+}
+
 .navbar .nav-link {
-    margin-right: 20px;
+    margin-right: 90px;
     font-weight: 600;
+    font-size: 1.2rem;
+    color: #fff !important;
+}
+
+.navbar .active {
+    border-bottom: 3px solid rgb(0, 0, 0);
 }
 
 .slider-picture {
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 .card {
@@ -22,17 +37,93 @@ header {
     border-radius: 15px;
 }
 
+.card img {
+    border-radius: 15px;
+}
+
+.banner {
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.slide-2 {
+    margin-top: 50px;
+}
+
+.slide-2 img {
+    height: 75vh;
+}
+
+.company {
+    background-color: #075985;
+    padding-top: 60px;
+    margin-top: 150px;
+    margin-bottom: -20px;
+}
+
+.company h1 {
+    font-weight: bold;
+}
+
+.company h1,
+.company h5 {
+    color: #fff;
+    text-align: center;
+}
+
+.company .row .fab {
+    color: #fff;
+    margin: 8px 8px;
+}
 
 @media screen and (max-width: 992px) {
     header img {
         width: 85vw;
+        margin-left: 0;
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: #fff;
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     }
 
     .navbar .nav-link {
         margin: 0 auto;
+        font-size: 1rem;
+        color: #fff !important;
+    }
+
+    .slider-picture {
+        margin-top: 30px;
     }
 
     .card {
         margin-top: 30px;
+        width: 60vw;
+        margin-left: 19%;
+    }
+
+    .card img {
+        height: 130px;
+    }
+
+    .card-body p {
+        font-size: .8rem;
+    }
+
+    .card .btn {
+        font-size: .9rem;
+    }
+
+    .banner img {
+        width: 90vw;
+        margin-left: -10%;
+    }
+
+    .slide-2 img {
+        height: 45vh;
     }
 }
