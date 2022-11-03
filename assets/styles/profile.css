@@ -41,6 +41,16 @@ header img {
 .content p {
     font-weight: 600;
     text-indent: 50px;
+    margin-bottom: 15px;
+}
+
+.content ul {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.content img {
+    margin-bottom: 15px;
 }
 
 .company {
@@ -93,6 +103,14 @@ header img {
     .content p {
         font-size: .9rem;
         text-indent: 25px;
+    }
+
+    .content ul li {
+        font-size: .9rem;
+    }
+
+    .content img {
+        width: 95vw;
     }
 
     .company {
