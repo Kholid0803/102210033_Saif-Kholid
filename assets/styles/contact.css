@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header img {
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+.navbar {
+    background-color: #036aa1;
+}
+
+.navbar .nav-link {
+    margin-right: 90px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #fff !important;
+}
+
+.navbar .active {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+
+.company {
+    background-color: #075985;
+    padding-top: 60px;
+    margin-top: 150px;
+    margin-bottom: -20px;
+}
+
+.company h1 {
+    font-weight: bold;
+}
+
+.company h1,
+.company h5 {
+    color: #fff;
+    text-align: center;
+}
+
+.company .row i {
+    color: #fff;
+    margin: 8px 8px;
+}
+
+@media screen and (max-width:992px) {
+    header img {
+        width: 85vw;
+        margin-left: 0;
+    }
+
+    .custom-toggler.navbar-toggler {
+        border-color: #fff;
+    }
+
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .navbar .nav-link {
+        margin: 0 auto;
+        font-size: 1rem;
+        color: #fff !important;
+    }
+
+
+    .company {
+        text-align: center;
+    }
+
+    .company h1 {
+        font-size: 2rem;
+    }
+
+    .company h5 {
+        font-size: 1rem;
+    }
+
+    .company .row h4 {
+        font-size: 1.2rem;
+        margin-top: 40px;
+    }
+
+    .company .row p {
+        font-size: 0.9rem;
+        margin-top: 40px;
+    }
+}
