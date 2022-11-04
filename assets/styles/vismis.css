@@ -28,6 +28,19 @@ header img {
     border-bottom: 3px solid rgb(0, 0, 0);
 }
 
+.content {
+    margin-top: 50px;
+}
+
+.content h1 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    border-bottom: 3px solid #036aa1;
+}
+
+.content h2 {
+    font-weight: 700;
+}
 
 .company {
     background-color: #075985;
@@ -72,9 +85,16 @@ header img {
     }
 
     .content h1 {
-        margin-bottom: 20px;
-        font-weight: 800;
-        border-bottom: 3px solid #036aa1;
+        font-size: 1.7rem;
+    }
+
+    .content h2 {
+        font-size: 1.3rem;
+    }
+
+    .content p,
+    li {
+        font-size: .9rem;
     }
 
     .company {
