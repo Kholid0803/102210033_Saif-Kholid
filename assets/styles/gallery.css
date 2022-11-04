@@ -28,6 +28,19 @@ header img {
     border-bottom: 3px solid rgb(0, 0, 0);
 }
 
+.gallery {
+    margin-top: 50px;
+}
+
+.gallery h1 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    border-bottom: 3px solid #036aa1;
+}
+
+.gallery img {
+    border-radius: 15px;
+}
 
 .company {
     background-color: #075985;
