@@ -71,6 +71,11 @@ header img {
         color: #fff !important;
     }
 
+    .content h1 {
+        margin-bottom: 20px;
+        font-weight: 800;
+        border-bottom: 3px solid #036aa1;
+    }
 
     .company {
         text-align: center;
