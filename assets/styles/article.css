@@ -28,6 +28,14 @@ header img {
     border-bottom: 3px solid rgb(0, 0, 0);
 }
 
+article .row {
+    margin-top: 50px;
+}
+
+article h3 {
+    font-weight: 800;
+    border-bottom: 3px solid #036aa1;
+}
 
 .company {
     background-color: #075985;
@@ -70,7 +78,6 @@ header img {
         font-size: 1rem;
         color: #fff !important;
     }
-
 
     .company {
         text-align: center;

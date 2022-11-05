@@ -28,6 +28,14 @@ header img {
     border-bottom: 3px solid rgb(0, 0, 0);
 }
 
+.contact h2 {
+    font-weight: 800;
+    border-bottom: 3px solid #036aa1;
+}
+
+.contact p {
+    font-weight: 600;
+}
 
 .company {
     background-color: #075985;
@@ -71,6 +79,9 @@ header img {
         color: #fff !important;
     }
 
+    .contact iframe {
+        width: 90vw;
+    }
 
     .company {
         text-align: center;
